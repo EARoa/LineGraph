@@ -21,5 +21,10 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func close(sender: AnyObject) {
+        self.dismissViewControllerAnimated(true, completion: { _ in })
+    }
+    
+    
 }
 

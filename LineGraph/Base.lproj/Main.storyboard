@@ -47,7 +47,7 @@
         <!--View Controller-->
         <scene sceneID="xAt-nN-Kr5">
             <objects>
-                <viewController id="x2B-dK-FDF" sceneMemberID="viewController">
+                <viewController id="x2B-dK-FDF" customClass="ViewController" customModule="LineGraph" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="xeL-MY-7Yf"/>
                         <viewControllerLayoutGuide type="bottom" id="U2N-O2-fAg"/>
@@ -65,11 +65,26 @@
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Cm-Xa-AXO">
+                                        <rect key="frame" x="16" y="27" width="46" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="46" id="xRf-kT-LQ4"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                        <state key="normal" title="Close">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="close:" destination="x2B-dK-FDF" eventType="touchUpInside" id="qdm-zN-tpw"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" cyan="0.1865037752" magenta="0.088847525169999997" yellow="0.0" black="0.0" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
                                 <constraints>
                                     <constraint firstItem="agL-D5-eKL" firstAttribute="centerY" secondItem="WW0-bd-Ynn" secondAttribute="centerY" id="HBl-Fc-XZh"/>
+                                    <constraint firstItem="5Cm-Xa-AXO" firstAttribute="top" secondItem="WW0-bd-Ynn" secondAttribute="top" constant="27" id="XpH-TG-21K"/>
                                     <constraint firstItem="agL-D5-eKL" firstAttribute="leading" secondItem="WW0-bd-Ynn" secondAttribute="leading" constant="173" id="k1w-Pu-FzY"/>
+                                    <constraint firstItem="5Cm-Xa-AXO" firstAttribute="leading" secondItem="WW0-bd-Ynn" secondAttribute="leading" constant="16" id="lh1-O9-xxa"/>
                                 </constraints>
                             </view>
                         </subviews>

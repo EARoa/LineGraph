@@ -13,6 +13,7 @@
 		10875CFA1D3551CE00CD5DE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10875CF91D3551CE00CD5DE7 /* Assets.xcassets */; };
 		10875CFD1D3551CE00CD5DE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10875CFB1D3551CE00CD5DE7 /* LaunchScreen.storyboard */; };
 		10BA0A101D3552A000891842 /* CoolGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BA0A0F1D3552A000891842 /* CoolGraphView.swift */; };
+		10E25CAA1D35B01A00C99696 /* TexasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E25CA91D35B01A00C99696 /* TexasView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		10875CFC1D3551CE00CD5DE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		10875CFE1D3551CE00CD5DE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		10BA0A0F1D3552A000891842 /* CoolGraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoolGraphView.swift; sourceTree = "<group>"; };
+		10E25CA91D35B01A00C99696 /* TexasView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TexasView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				10875CFB1D3551CE00CD5DE7 /* LaunchScreen.storyboard */,
 				10875CFE1D3551CE00CD5DE7 /* Info.plist */,
 				10BA0A0F1D3552A000891842 /* CoolGraphView.swift */,
+				10E25CA91D35B01A00C99696 /* TexasView.swift */,
 			);
 			path = LineGraph;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			files = (
 				10BA0A101D3552A000891842 /* CoolGraphView.swift in Sources */,
 				10875CF51D3551CE00CD5DE7 /* ViewController.swift in Sources */,
+				10E25CAA1D35B01A00C99696 /* TexasView.swift in Sources */,
 				10875CF31D3551CE00CD5DE7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

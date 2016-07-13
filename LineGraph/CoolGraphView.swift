@@ -73,20 +73,10 @@ class CoolGraphView: UIView {
         line.addLineToPoint(CGPoint(x: 300, y: 420)) //
         line.addLineToPoint(CGPoint(x: 350, y: 120))
         
-//        UIColor.blueColor().set()
-        
         UIColor(red: 0.15, green: 0.63, blue: 0.47, alpha: 1.0).set()
         
         line.stroke()
         line.closePath()
-
-    
-        
-        
-
-        
-        
-    
     }
 
 }

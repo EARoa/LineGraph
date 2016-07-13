@@ -16,9 +16,6 @@ class TexasView: UIView {
     override func drawRect(rect: CGRect) {
         // Drawing code
         
-        
-        
-        
         let line = UIBezierPath()
         
         line.moveToPoint(CGPoint(x: 11, y: 330 ))
@@ -52,25 +49,10 @@ class TexasView: UIView {
         line.addLineToPoint(CGPoint(x: 75, y: 414))
         line.addLineToPoint(CGPoint(x: 53, y: 373))
         line.moveToPoint(CGPoint(x: 11, y: 330 ))
-
-        
-        
         
         UIColor(red: 0.15, green: 0.63, blue: 0.47, alpha: 1.0).set()
         
         line.fill()
         line.closePath()
-
-        print(self.frame.minX)
-        print(self.frame.maxX)
-        print(self.frame.minY)
-        print(self.frame.maxY)
-        
-        
     }
-    
-    
-    
-    
-
 }
